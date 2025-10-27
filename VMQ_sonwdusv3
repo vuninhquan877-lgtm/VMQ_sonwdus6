@@ -115,7 +115,8 @@ local Tabs = {
     Main3=Window:AddTab({Title="99 Nights In The Forest"}),
     Main4=Window:AddTab({Title="kaitun"}),
     Main5=Window:AddTab({Title="steal a brainrot"}),
-    Main6=Window:AddTab({Title="animation roblox free"})
+    Main6=Window:AddTab({Title="animation roblox free"}),
+    Main7=Window:AddTab({Title="evede"})
 }
 
 -- Tab 0: Thông Tin
@@ -248,5 +249,13 @@ Tabs.Main6:AddButton({
 Title="animation roblox free",
  Callback=function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-GAE-SIMPLIFIED-27193"))()
+    end
+})
+
+-- Tab 7: evede
+Tabs.Main1:AddButton({
+    Title="tora",
+    Callback=function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EvadeEvent"))("@XScepTskX")
     end
 })
