@@ -171,11 +171,7 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
     end
 })
-Tabs.Main1:AddButton({
-    Title="gravity hub",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
-    end
+
 -- Tab 2: Grow A Garden
 Tabs.Main2:AddButton({
     Title="Nat Hub",
@@ -253,7 +249,7 @@ Title="animation roblox free",
 })
 
 -- Tab 7: evede
-Tabs.Main1:AddButton({
+Tabs.Main7:AddButton({
     Title="tora",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EvadeEvent"))("@XScepTskX")
